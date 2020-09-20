@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
 }
 
 .nav-menu {
@@ -36,6 +35,7 @@ body {
     color: hsl(202, 70%, 50%);
     transform: translate(-50%, -50%);
     transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-list::before {
