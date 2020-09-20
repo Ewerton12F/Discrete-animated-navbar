@@ -42,7 +42,7 @@ body {
     content: "";
     position: absolute;
     top: 0px;
-    height: 128px;
+    height: calc(100% + 50%);
     width: 100%;
     border-right: 3px solid hsl(202, 57%, 60%);
     transform: translateY(0%);
@@ -56,7 +56,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 256px;
+    width: calc(100% + 50%);
     border-bottom: 3px solid hsl(202, 57%, 60%);
     transform: translateX(0%);
     transition: all 0.3s ease;
@@ -74,9 +74,9 @@ body {
 }
 
 .nav-list:hover:before {
-    transform: translateY(-70%);
+    transform: translateY(-80%);
 }
 
 .nav-list:hover:after {
-    transform: translatex(-70%);
+    transform: translatex(-80%);
 } 
